@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #dbffe3; }
+
+#header {
+  display: block;
+  font: 2vw "Roboto", sans-serif;
+  color: #809080;
+  max-height: 300px;
+  max-width: 900px;
+  padding: 40px 0 30px 0;
+  text-align: center;
+  background: #ffe6db;
+  border-radius: 3px;
+  margin: 100px auto 100px auto; }
+
+.search {
+  max-height: 50px;
+  max-width: 900px;
+  margin: 0 auto 0 auto;
+  text-align: center; }
+
+form {
+  padding: 20px; }
+
+.wiki {
+  min-height: 25px;
+  min-width: 500px;
+  font-size: 10pt; }
+
+.submit {
+  margin-top: 5px;
+  height: 4vh;
+  width: 7vw;
+  font: 23pt; }
+
+button {
+  margin-top: 5px;
+  height: 4vh;
+  width: 7vw;
+  font: 23pt; }
+
+.output {
+  float: left;
+  text-align: left; }
+
+li {
+  list-style-type: none;
+  text-align: left;
+  margin-bottom: 1em;
+  font: 1vw "Roboto", sans-serif;
+  border: 2px #ccc solid;
+  border-radius: 10px;
+  padding: 1em; }
+
+/*# sourceMappingURL=main.css.map */
