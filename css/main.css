@@ -1,0 +1,49 @@
+.header {
+  margin: 30px;
+  color: black; }
+
+.wider {
+  width: 80%; }
+
+.box-top {
+  margin: 60px 0 80px; }
+
+.wikipedia {
+  margin-top: 70px; }
+
+.border {
+  border: 4px black dotted; }
+
+.wiki-box {
+  padding: 60px; }
+
+.wiki {
+  font-size: 15pt; }
+
+.search-row {
+  padding: 20px; }
+
+.nav {
+  background: #fd9094; }
+
+.table {
+  margin-top: 50px;
+  width: 80%; }
+
+.search-btn {
+  margin-top: 20px; }
+
+.search-glass {
+  margin-top: 10px; }
+
+input#search.search-bar {
+  padding-left: 20px;
+  border-bottom: 0px; }
+
+.search-wrapper-card {
+  width: 700px; }
+
+td {
+  font-size: 12px; }
+
+/*# sourceMappingURL=main.css.map */
