@@ -1,61 +1,73 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-	<!--Import Google Icon Font-->
-	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--Import materialize.css-->
-	<link href="css/materialize.min.css" media="screen,projection" rel="stylesheet" type="text/css">
-	<link href="css/main.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--Let browser know website is optimized for mobile-->
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--Import materialize.css-->
+  <link href="css/materialize.min.css" media="screen,projection" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--Let browser know website is optimized for mobile-->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	<title>Wikipedia Viewer
-	</title>
+  <title>Wikipedia Viewer</title>
 </head>
 
 <body>
-	<div class="container wider">
-		<div class="header box-top">
-			<h5>Wikipedia Search Query</h5>
-		</div>
-	</div>
-
-
-	<div class="container wikipedia wider">
-		<div class="search-wrapper card search-wrapper-card">
-			<div class="input-field">
-				<input id="search" class="search-bar search-query" type="search" placeholder="Enter a query">
-                <i class="tiny material-icons search-glass">search</i>
-			</div>
-		</div>
-	</div>
-    <div class="row">
-        <div class="container search-btn wider"><a class="waves-effect waves-light btn col s1 submit">Search</a></div>
+  <div class="container wider">
+    <div class="header box-top">
+      <h5>Wikipedia Search Query</h5>
     </div>
-	<!--Table for the results-->
-
-    <div class="container table">
-        <table class="left striped">
-    		<thead>
-    			<tr>
-    				<th data-field="query">Result</th>
-                    <th data-field="name">Description</th>
-                    <th data-field="price">Link</th>
-    			</tr>
-    		</thead>
+  </div>
 
 
-    		<tbody>
-    			<!-- Append the results here-->
-    		</tbody>
-    	</table>
+  <div class="container wikipedia wider">
+    <div class="search-wrapper card search-wrapper-card">
+      <div class="input-field">
+        <input class="search-bar search-query" id="search" placeholder="Enter a query" type="search">
+        <i class="tiny material-icons search-glass">search</i>
+        <label for="autocomplete-input"></label>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="container search-btn wider">
+      <a class="waves-effect waves-light btn col s1 submit">Search</a>
     </div>
 
-	<!--Import jQuery before materialize.js-->
-	<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript">
-	</script>
-	<script src="js/materialize.min.js" type="text/javascript">
-	</script>
-	<script src="js/main.js" type="text/javascript">
-	</script>
+
+    <div class="container lucky-btn wider">
+      <a class="waves-effect waves-light btn col s2 lucky" href="https://en.wikipedia.org/wiki/Special:Random" target="blank">surprise me</a>
+    </div>
+  </div>
+  <!--Table for the results-->
+
+
+  <div class="container table">
+    <table class="left striped">
+      <thead>
+        <tr>
+          <th data-field="query">Result</th>
+
+          <th data-field="name">Description</th>
+
+          <th data-field="price">Link</th>
+        </tr>
+      </thead>
+
+
+      <tbody>
+        <!-- Append the results here-->
+      </tbody>
+    </table>
+  </div>
+  <!--Import jQuery before materialize.js-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript">
+  </script> 
+  <script src="js/materialize.min.js" type="text/javascript">
+  </script> 
+  <script src="js/main.js" type="text/javascript">
+  </script>
 </body>
 </html>
