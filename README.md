@@ -1,3 +1,18 @@
+Project objectives:
+
+Objective:
+
+1. Allow user to search Wikipedia entries in a search box and see resulting entries
+2. A button is available to be clicked so that a random Wikipedia entry is prompted
+
+Notes on the api results:
+There are 4 queries that are resulted when the call is successful
+  - searched string
+    - Main "title"
+    - Main description
+    - link to the wikipedia
+
+
 ![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
 ===========
 
